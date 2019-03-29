@@ -14,8 +14,7 @@
 }
 
 .demo .notificationsFrame.show-menu {
-  -webkit-transform: translate3d(150px, 0, 0);
-          transform: translate3d(150px, 0, 0);
+  transform: translate3d(150px, 0, 0);
 }
 
 .demo .notificationsFrame .searchInput {
@@ -32,10 +31,8 @@
   padding: 0 17px;
   font-size: 13px;
   color: #666;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  -webkit-transform: translateX(15px);
-          transform: translateX(15px);
+  transform: translateX(15px);
   opacity: 0;
   pointer-events: none;
 }
@@ -45,7 +42,6 @@
 }
 
 .demo .notificationsFrame .searchInput.active {
-  -webkit-transform: translateX(0);
   transform: translateX(0);
   opacity: 1;
   pointer-events: all;
@@ -79,7 +75,6 @@
   left: 0;
   background: #b2daff;
   border-radius: 3px;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
@@ -91,7 +86,6 @@
   left: 0;
   background: #b2daff;
   border-radius: 3px;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   width: 29px;
   top: auto;
@@ -106,7 +100,6 @@
   top: -2px;
   right: 0;
   background: #b2daff;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
@@ -126,7 +119,6 @@
   color: #fff;
   top: 18px;
   right: 20px;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   cursor: pointer;
 }
