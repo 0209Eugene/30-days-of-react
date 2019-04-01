@@ -18,7 +18,7 @@ const moment1 = {
     name: 'Nate',
     avatar: 'http://www.croop.cl/UI/twitter/images/doug.jpg'
   },
-  comments: [{from: 'Ari', text: 'Me too!'}]
+  comments: [{ from: 'Ari', text: 'Me too!' }]
 };
 const activities = [
   {
@@ -29,7 +29,7 @@ const activities = [
       name: 'Nate',
       avatar: 'http://www.croop.cl/UI/twitter/images/doug.jpg'
     },
-    comments: [{from: 'Ari', text: 'Me too!'}]
+    comments: [{ from: 'Ari', text: 'Me too!' }]
   },
   {
     timestamp: new Date().getTime(),
@@ -39,7 +39,7 @@ const activities = [
       name: 'Ari',
       avatar: 'http://www.croop.cl/UI/twitter/images/doug.jpg'
     },
-    comments: [{from: 'Nate', text: 'I am so jealous'}]
+    comments: [{ from: 'Nate', text: 'I am so jealous' }]
   }
 ];
 export const load = () => {
