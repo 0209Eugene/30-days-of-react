@@ -6,12 +6,12 @@ class Content extends React.Component {
       <div className="content">
         <div className="line"></div>
 
-      {/* Timeline item */}
+        {/* Timeline item */}
         <div className="item">
           <div className="avatar">
-            <img 
-            alt='Doug'
-            src="http://www.croop.cl/UI/twitter/images/doug.jpg" />
+            <img
+              alt='Doug'
+              src="http://www.croop.cl/UI/twitter/images/doug.jpg" />
             Doug
           </div>
 
@@ -24,7 +24,26 @@ class Content extends React.Component {
           </div>
         </div>
 
-        {/* ... */}
+        <div className="line"></div>
+
+        {/* Timeline item */}
+        <div className="item">
+          <div className="avatar">
+            <img
+              alt='Doug'
+              src="http://www.croop.cl/UI/twitter/images/doug.jpg" />
+            Doug
+          </div>
+
+          <span className="time">
+            30min ago
+          </span>
+          <p>After lunch</p>
+          <div className="commentCount">
+            0
+          </div>
+        </div>
+
 
       </div>
     )

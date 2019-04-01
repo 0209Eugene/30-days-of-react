@@ -6,7 +6,7 @@ class Header extends React.Component {
       <div className="header">
         <div className="fa fa-more"></div>
 
-        <span className="title">Timeline</span>
+        <span className="title">{this.props.title}</span>
 
         <input
           type="text"
