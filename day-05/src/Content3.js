@@ -4,8 +4,8 @@ import ActivityItem from './ActivityItem';
 
 class Content extends React.Component {
   render() {
-    const {activities} = this.props; // ES6 destructuring
-    
+    const { activities } = this.props; // ES6 destructuring
+
     return (
       <div className="content">
         <div className="line"></div>
@@ -15,7 +15,7 @@ class Content extends React.Component {
           <ActivityItem
             activity={activity} />
         ))}
-        
+
       </div>
     )
   }
